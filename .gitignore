@@ -1,0 +1,14 @@
+# 运行时数据不入库（含管理员密码哈希，禁止提交到公开仓库）
+data/
+uploads/
+
+# 本地脚本与素材
+*.bat
+*.vbs
+*.xlsx
+*.pptx
+*.jpg
+*.jpeg
+*.png
+*.log
+公网网址.txt
