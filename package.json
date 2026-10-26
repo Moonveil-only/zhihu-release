@@ -1,0 +1,1 @@
+﻿{ "name": "zhihu-release-platform", "version": "1.0.0", "description": "智护随行 · 软件更新托管平台（零依赖 Node 后端）", "main": "server.js", "scripts": { "start": "node server.js" }, "engines": { "node": ">=16" }, "license": "MIT" }
