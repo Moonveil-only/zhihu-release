@@ -1,0 +1,22 @@
+# 运行时数据（由持久卷提供，不进镜像）
+data/
+uploads/
+
+# 本地脚本与文档（云端不需要）
+*.bat
+*.vbs
+部署指南.html
+公网网址.txt
+
+# 用户原始素材（不上传到任何云端）
+*.xlsx
+*.pptx
+*.jpg
+*.jpeg
+*.png
+
+# 杂项
+.git/
+node_modules/
+*.log
+*.zip
