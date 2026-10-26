@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智护随行 · 软件更新托管平台</title>
+<meta name="description" content="智护随行软件更新托管平台：版本历史、免登录下载、登录发布，7×24 小时稳定运行">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="stylesheet" href="app.css?v=3">
+</head>
+<body>
+
+<!-- 动态背景：轨道环 + 光斑 -->
+<div id="bg-fx" aria-hidden="true">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="orbits">
+    <i class="o1"></i><i class="o2"></i><i class="o3"></i>
+  </div>
+</div>
+
+<!-- 鼠标跟随光晕 -->
+<div id="cursor-glow" aria-hidden="true"></div>
+
+<!-- 顶栏 -->
+<header id="topbar">
+  <div class="tb-inner">
+    <a class="brand" href="#/">
+      <img class="b-logo" src="logo.svg" alt="智护随行">
+      <span class="b-txt"><b>智护随行</b><small>RELEASE CENTER</small></span>
+    </a>
+    <nav id="nav-links">
+      <a href="#/">首页</a>
+      <a href="#/download">下载</a>
+      <a href="#/about">关于</a>
+    </nav>
+    <div class="tb-actions" id="tb-actions">
+      <a class="btn btn-primary btn-sm" href="#/login">登录</a>
+    </div>
+    <button id="burger" aria-label="菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- 主视图 -->
+<main id="app" class="page-enter"></main>
+
+<!-- 页脚 -->
+<footer class="footer">
+  <div class="ft-inner">
+    <div class="ft-brand"><img src="logo.svg" alt="" class="ft-logo"><div><b>智护随行</b><small>乡村老年健康管理平台</small></div></div>
+    <div class="ft-links">
+      <a href="#/">首页</a><a href="#/download">下载</a><a href="#/about">关于</a><a href="#/login">管理登录</a>
+    </div>
+    <div class="ft-meta">
+      <span>智护随行 · 官方下载与更新发布</span>
+      <span id="ft-versions">— 个版本 · 累计 — 次下载</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div id="toast" role="status"></div>
+
+<script src="app.js?v=3"></script>
+<script src="views.js?v=3"></script>
+</body>
+</html>
